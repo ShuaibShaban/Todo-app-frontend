@@ -3,6 +3,7 @@
     "bootstrap": "^5.2.3",
     "font-awesome": "^4.7.0",
     "fontawesome": "^5.6.3",
+    "icons": "^1.0.0",
     "react-router-dom": "^6.9.0",
     "reactstrap": "^9.1.6"
   }

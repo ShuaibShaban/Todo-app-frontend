@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import CreateTask from '../components/modals/CreateTask'
+import CreateTask from '../components/modals/NewTask'
 import Card from './Card';
+
 
 const TodoList = () => {
     const [modal, setModal] = useState(false);
