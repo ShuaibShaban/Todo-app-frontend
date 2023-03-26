@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+## Todo app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- A simple application that helps people to be orderly by arranging their tasks in a manageable way.
 
-## Available Scripts
+### Getting Started
 
-In the project directory, you can run:
+- In order for you to use on either of the following;(windows &, Linux,Ubuntu)
+- nodejs 9.0+
 
-### `npm start`
+### Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Displaying a list of all the todos on my home page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Edit A Todo
 
-### `npm test`
+-This is achieved by clicking on the edit button that allows a person to edit the previous todo that they had made.Once you click on save after editing the new changes get saved.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Add Todo
 
-### `npm run build`
+- An input modal popup appears immediately when you click on the create new task button that allows a user to create a new todo by providing them with an unout field that has title and description text area.
+- Each and every todo are added and displayed on different cards.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Login
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Click on the login button a dummy login it will redirect the user to a page with a dummy login form for the user to fill. user name : shaban password:4847
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Development And Installation
 
-### `npm run eject`
+## Requirements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+In order for you to use the content on this repo ensure you have the following:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- A computer that runs on either of the following; (Windows 7+, Linux, Mac OS).
+- nodejs 9.0+
+- Visual Studio Code.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Alternative one
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Open a terminal / command line interface on your computer.
 
-## Learn More
+- Clone the repo by using the following to create a copy on your local
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  git@github.com:ShuaibShaban/Todo-app-frontend.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- change directory to the repo folder:
 
-### Code Splitting
+  cd Todo-app-frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  cd todo
 
-### Analyzing the Bundle Size
+- Open in `Visual Studio Code`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  code .
 
-### Making a Progressive Web App
+### Alternative Two
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+-On the top right corner of this page there is a button labelled Fork.
 
-### Advanced Configuration
+- Click on that button to fork the repo to your own account.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Take on the process in Alternative One above.
 
-### Deployment
+- Remember to replace your username when cloning
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Running the appplication
+- To run the application, you can use the following steps to run the app
 
-### `npm run build` fails to minify
+- Run `npm install` to install all the dependencies.
+        npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-Run `npm run start` to open the application on your browser
+
+    npm start
+
+### Author
+This project was contributed by:
+
+- Shuaib Shabn
+
+### License
+
+MIT License
+
