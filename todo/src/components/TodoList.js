@@ -3,7 +3,7 @@ import CreateTask from '../components/modals/NewTask'
 import Card from './Card';
 
 
-const TodoList = () => {
+const TodoList = ({ onLogout }) => {
     const [modal, setModal] = useState(false);
     const [taskList, setTaskList] = useState([])
     
@@ -45,17 +45,21 @@ const TodoList = () => {
         setModal(false)
     }
 
+    const handleLogout = () => {
+        onLogout();
+    }
 
     return (
         <>
-            <div className = "header text-center">
+            <div className="header d-flex justify-content-between align-items-center">
                 <h3>Todo List</h3>
-                <button className = "btn btn-primary mt-2" onClick = {() => setModal(true)} >Create Task</button>
+                <button className="btn btn-primary" onClick={() => setModal(true)}>Create Task</button>
+                <button className="btn btn-success" onClick={handleLogout}>Logout</button>
             </div>
-            <div className = "task-container">
-            {taskList && taskList.map((obj , index) => <Card taskObj = {obj} index = {index} deleteTask = {deleteTask} updateListArray = {updateListArray}/> )}
+            <div className="task-container">
+                {taskList && taskList.map((obj, index) => <Card taskObj={obj} index={index} deleteTask={deleteTask} updateListArray={updateListArray} />)}
             </div>
-            <CreateTask toggle = {toggle} modal = {modal} save = {saveTask}/>
+            <CreateTask toggle={toggle} modal={modal} save={saveTask} />
         </>
     );
 };
