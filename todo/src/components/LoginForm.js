@@ -19,10 +19,7 @@ const LoginForm = ({ onLogin }) => {
   return (
     <div className='login'>
             
-                {/* <img
-                    className="login__logo"
-                    src='https://edita.com.eg/wp-content/uploads/2020/06/todo-logo.png' 
-                /> */}
+ 
             
      <div className='login__container'>
                 <h2>Sign-in</h2>
